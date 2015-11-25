@@ -6,7 +6,7 @@ import random
 symlist = ['!','@','#','$','%','^','&','*','(',')','?','-','=','_','+','<','>',',','.','/',';',':','"','[',']','{','}','|']
 
 # Open the file that has the diceware dictionary
-response = open('/Users/tenboj/Desktop/diceware.wordlist.asc', 'r')
+response = open('diceware.wordlist.asc', 'r')
 
 # Create a list from a local diceware dictionary file
 mywords = {}
